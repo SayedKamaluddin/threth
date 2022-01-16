@@ -215,3 +215,62 @@ a{
 .videos nav div span:hover{
     color: #3939ff;
 }
+
+@media screen and (max-width: 1080px){
+    .videos nav div{
+        float: right;
+        width: 42%;
+    }
+    .videos nav div img{
+        width: 85%;
+
+    }
+    #check_sidebar:checked ~ .videos nav div{
+        margin: 20px 10px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .videos nav div{
+        float: right;
+        width: 42%;
+    }
+    .videos nav div img{
+        width: 85%;
+
+    }
+    #check_sidebar:checked ~ .videos nav div{
+        margin: 20px 20px;
+        width: 40%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .videos nav div{
+        float: right;
+        width: 78%;
+        margin: 20px 15px;
+        height: auto;
+    }
+    
+    .left-nav span{
+        font-size: 22px;
+    }
+    .left-nav img{
+        width: 30px;
+    }
+    .search{
+        width: 200px;
+    }
+    .search input{
+        width: 90%;
+    }
+    #check_sidebar:checked ~ .videos nav div{
+        margin: 20px 20px;
+        width: 83%;
+    }
+    .videos nav div img{
+        width: 85%;
+    }
+
+}
