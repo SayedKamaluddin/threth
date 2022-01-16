@@ -249,7 +249,7 @@ a{
     .videos nav div{
         float: right;
         width: 78%;
-        margin: 20px 15px;
+        margin: 20px 5px;
         height: auto;
     }
     
@@ -260,17 +260,27 @@ a{
         width: 30px;
     }
     .search{
-        width: 200px;
+        width: 30%;
     }
     .search input{
         width: 90%;
     }
     #check_sidebar:checked ~ .videos nav div{
-        margin: 20px 20px;
-        width: 83%;
+        margin: 20px 4px;
+        width: 80%;
     }
     .videos nav div img{
         width: 85%;
     }
+    #check_sidebar:checked ~ .sidebar{
+        width: 50px;
+    }
+    #check_sidebar:checked ~ .sidebar ul li img{
+        margin: 1px 0 1px 0px;
+        width: 30px;
+    }
 
+    #check_sidebar:checked ~ .sidebar ul li img.home_logo{
+        width: 35px;
+    }
 }
